@@ -115,8 +115,8 @@ module.exports = function afknotify(mod) {
 		})
 	})
 	
-	//Chat notification
-	mod.hook('S_CHAT', 3, event => {
+	//Chat notification currently buggy i fix this soon.
+	/*mod.hook('S_CHAT', 3, event => {
 		if(event.authorName.toLowerCase()===playerName) return
 		
 		if(mod.settings.chatTerm !== '' && event.message.toLowerCase().includes(mod.settings.chatTerm)) {
@@ -132,7 +132,7 @@ module.exports = function afknotify(mod) {
 				message:'[Chat Mention] '+event.authorName+'\n'+event.message
 			})
 		}
-	})
+	}) */
 	
 	/*//Teleport Request
 	mod.hook('S_ASK_TELEPORT', 1, event => {
