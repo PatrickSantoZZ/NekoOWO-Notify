@@ -1,0 +1,17 @@
+{
+    "disableAutoUpdate": false,
+    "name": "NekoOWO-notify",
+    "author": "Nekonekoo",
+    "description": "Alerts users during certain ingame events, using windows notification - Updated: 17.10.2019",
+    "version": "2.0",
+    "options": {
+        "niceName": "NekoOWO Notify",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": [""],
+    "dependencies": {
+        "notifier": "https://raw.githubusercontent.com/PatrickSantoZZ/NekoOWO-Notify/master/module.json"
+    }
+}

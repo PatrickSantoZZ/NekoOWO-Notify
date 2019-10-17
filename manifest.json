@@ -1,0 +1,19 @@
+{
+    "files": {
+        "README.md": "e4c93171bcd75c50a2a066ffecaa4c2af6a8160b2510be50bd6250f1521a2c7c",
+        "config.json": "44e74903bdc5654dd3102785e9c674f915ee3a11c1347d05673dc1894f7f7768",
+        "index.js": "41850c813da7fe0d119491fab4632e7f060b88cc0c51e98eae1f3b64b00602a0",
+        "module.json": "a07f442da683f3bedc42f11841b3e2644ea17e64738fc4a57d6bea679555b7b5",
+        "settings_migrator.js": "6b8c1f0c7cf402602b343370663abcbb1dfcc3e6ecedef3bfe442626ef11ba03"
+    },
+    "defs": {
+        "S_BATTLE_FIELD_ENTRANCE_INFO": "raw",
+        "S_BEGIN_THROUGH_ARBITER_CONTRACT": 1,
+        "S_CHAT": 3,
+        "S_FIN_INTER_PARTY_MATCH": "raw",
+        "S_OTHER_USER_APPLY_PARTY": 1,
+        "S_REQUEST_CONTRACT": 1,
+        "S_USER_STATUS": 3,
+        "S_WHISPER": 3
+    }
+}
