@@ -7,9 +7,9 @@ A tera-proxy module that uses tera-notifier to push windows notification when va
 
 Requires: 
 - Commands module by Pinkie-Pie
-- tera-notifier: https://github.com/SerenTera/tera-notifier
+- tera-notifier: https://github.com/PatrickSantoZZ/tera-notifier
 
-See the readme in https://github.com/SerenTera/tera-notifier if you need an example of a notification.
+See the readme in https://github.com/PatrickSantoZZ/tera-notifier if you need an example of a notification.
 
 ## Commands 
 - `afk`: toggles the enable/disable of this module
