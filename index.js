@@ -37,10 +37,10 @@ module.exports = function afknotify(mod) {
 	
 	//Whispers (whisper)
 	mod.hook('S_WHISPER', 3, event => { 
-		if(event.authorName.toLowerCase()===playerName) return
+		if(event.name.toLowerCase()===playerName) return
 		parseconfig({	
 			configname:'whisper',
-			message:'[Whisper] '+event.authorName+'\n'+event.message
+			message:'[Whisper] '+event.name+'\n'+event.message
 		})
 	})
 	
@@ -116,31 +116,31 @@ module.exports = function afknotify(mod) {
 	})
 	
 	//Chat notification currently buggy i fix this soon.
-	/*mod.hook('S_CHAT', 3, event => {
-		if(event.authorName.toLowerCase()===playerName) return
+	mod.hook('S_CHAT', 3, event => {
+		if(event.name.toLowerCase()===playerName) return
 		
 		if(mod.settings.chatTerm !== '' && event.message.toLowerCase().includes(mod.settings.chatTerm)) {
 			parseconfig({
 				configname:'chatcheckterm',
-				message:'[Chat Mention] '+event.authorName+'\n'+event.message
+				message:'[Chat Mention] '+event.name+'\n'+event.message
 			})
 		}
 		
 		if(event.message.toLowerCase().includes(playerName)) {
 			parseconfig({
 				configname:'chatcheckname',
-				message:'[Chat Mention] '+event.authorName+'\n'+event.message
+				message:'[Chat Mention] '+event.name+'\n'+event.message
 			})
 		}
-	}) */
+	}) 
 	
-	/*//Teleport Request
+	//Teleport Request
 	mod.hook('S_ASK_TELEPORT', 1, event => {
 		parseconfig({
             configname: 'partysum',
             message: '[Request Party Summon]\n' + event.name + ' wants to summon you'
         })
-	})*/
+	})
 	
 	
 	//BG matching
