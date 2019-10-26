@@ -2,8 +2,8 @@
     "disableAutoUpdate": false,
     "name": "NekoOWO-notify",
     "author": "Nekonekoo",
-    "description": "Alerts users during certain ingame events, using windows notification - Updated: 17.10.2019",
-    "version": "2.0",
+    "description": "Alerts users during certain ingame events, using windows notification - Updated: 26.10.2019",
+    "version": "3.0",
     "servers": ["https://raw.githubusercontent.com/PatrickSantoZZ/NekoOWO-Notify/master/"],
     "options": {
         "niceName": "NekoOWO Notify",
